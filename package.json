@@ -1,0 +1,11 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "Rumiantsev Oleksii <rumiantsev.oleksii@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.13.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "main": "server.js",
+  "author": "Rumiantsev Oleksii <rumiantsev.oleksii@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pg": "^7.8.1"
+  }
+}
