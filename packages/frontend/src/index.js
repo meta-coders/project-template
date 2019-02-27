@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { hot } from 'react-hot-loader';
 
 ReactDOM.render(
-  <h1>Project template</h1>,
-  document.getElementById('app')
+  hot(module)(<h1>Project template</h1>),
+  document.querySelector('#app')
 );
-
-module.hot.accept();

@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "author": "Rumiantsev Oleksii <rumiantsev.oleksii@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --env.development",
+    "watch": "webpack --env.development --watch",
+    "build": "webpack --env.production",
+    "clean": "rm -r dist/*"
+  },
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
@@ -12,12 +18,10 @@
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
     "react-hot-loader": "^4.7.1",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
-  },
-  "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   }
 }
